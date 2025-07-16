@@ -1,0 +1,274 @@
+
+
+@media screen and (max-width:992px) {
+
+    .head .head-elements{
+    display: none;
+  
+}
+    .nav-togg{
+     display: block;
+     margin: 5px;
+
+    }
+    
+    
+    
+    .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    
+
+.body{
+     display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.card-img{
+  height: 440px;
+  width: 100%;
+}
+
+.main{
+    height:440px;
+    width: 100%;
+    
+}
+.main-card{
+    height: 440px;
+    width: 100%;
+    
+}
+.card{
+    height: 440px;
+    width: 100%;
+}
+.navbar1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    height: 250px;
+}
+.main2 .card{
+    height: 255px;
+    width: 290px;
+}
+
+.main2 .card-img{
+     height: 255px;
+    width: 290px;
+
+}
+.cart .card-img-overlay{
+     
+    height: 332px;
+
+}
+
+ .cart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+ .cart .card{
+    width: 45%;
+    padding-bottom: 0px;
+ }
+
+
+ .body3{
+    display: flex;
+    flex-direction: column;
+ }
+ .body3 .main-card{
+    width: 100%;
+    height: 300px;
+    
+ }
+ .body3 .card-img{
+ width: 100%;
+    height: 300px;
+    
+ }
+ .body3 .main-card .card-img-overlay{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .tcards-1{
+    width: 50%;
+    margin-right: 0px;
+    margin-left: 2px;
+ }
+ .tcards-2{
+    width: 50%;
+    margin-right: 0px;
+     margin-left: 2px;
+ }
+
+ .tcards .cards{
+     width: 30%;
+    margin-right: 10px;
+     margin-left: 10px;
+ }
+
+ .image1{
+    width: 100%;
+    height: 250px;
+ }
+
+ .image1 img{
+    width: 100%;
+    height: 250px;
+ }
+
+ .bodysale{
+    display: flex;
+    flex-direction: column;
+
+ }
+  .bodysale .image img{
+    width: 100%;
+    height: 220px;
+    margin-top: 5px;
+}
+
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+.card-img{
+  height: 370px;
+  width: 100%;
+}
+.main{
+     height: 370px;
+  width: 100%;
+
+}
+.main .main-card .card-img-overlay .btn {
+    margin-top: 10px;
+}
+
+.navbar1 .nav-elements{
+    width: 33%;
+
+}
+
+.main2 .card{
+    width: 30%;
+    overflow: hidden;
+    margin-top: 0px;
+}
+.main2 .card  img{
+    width:220px;
+    height: 253px;
+}
+
+.nav2 .navbar {
+    width: 80%;
+}
+.nav2 .categories{
+    width: 20%;
+}
+
+.nav2 .head-elements .nav-link {
+    margin-left: 10px;
+}
+
+
+.cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart .card{
+    width: 49%;
+    margin-top: 5px;
+    height: 300px;
+}
+.cart .card .card-body{
+    
+    
+    height: 140px;
+    padding: 8px;
+    padding-left: 16px;
+}
+
+.nav3 .navbar {
+    width: 50%;
+}
+
+.nav3 .navbar .btn {
+    margin-left:150px;
+}
+.nav3 .categories{
+    width: 50%;
+}
+
+/* .tcards-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.tcards-1 .card{
+    width: 33%;
+}
+
+.tcards-2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tcards{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.nav4lp .navbar {
+    width: 80%;
+    height: 90px;
+}
+.nav4lp .categories{
+    width: 20%;
+    height: 90px;
+}
+
+.nav4lp .head-elements .nav-link {
+    margin-left: 10px;
+}
+
+.nav4lp{
+    height: 90px;
+}
+
+.bodylp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+}
+
+
+@media screen and (max-width:425px) {
+
+
+
+}
